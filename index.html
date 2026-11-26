@@ -1,87 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#101a17">
-  <meta name="description" content="Decoding Hukum — Question. Explore. Understand. Thoughtful conversations on the Creator, consciousness, spirituality and existence.">
-  <title>Decoding Hukum — The Conversation Continues</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
-  <style>
-    :root{--bg:#101a17;--panel:#17231f;--text:#f2eee5;--muted:#b8b9ac;--gold:#c6a66b;--line:rgba(220,205,170,.2)}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:"DM Sans",sans-serif;font-weight:300;line-height:1.7}
-    a{color:inherit}.wrap{width:min(1080px,calc(100% - 48px));margin:auto}.eyebrow{text-transform:uppercase;letter-spacing:.24em;font-size:.72rem;color:var(--gold)}
-    header{padding:28px 0;border-bottom:1px solid var(--line)}.brand{font-size:.86rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
-    .hero{min-height:78vh;display:flex;align-items:center;padding:100px 0 110px;position:relative;overflow:hidden}
-    .hero:after{content:"";position:absolute;width:520px;height:520px;border:1px solid rgba(198,166,107,.12);border-radius:50%;right:-170px;top:8%;box-shadow:0 0 0 55px rgba(198,166,107,.025),0 0 0 110px rgba(198,166,107,.02);pointer-events:none}
-    h1,h2,h3{font-family:"Playfair Display",serif;font-weight:400;line-height:1.16}h1{font-size:clamp(3.1rem,8vw,6.6rem);max-width:850px;margin:24px 0}h1 em{color:var(--gold);font-style:normal}
-    .lead{font-size:clamp(1rem,2vw,1.2rem);color:var(--muted);max-width:650px}
-    .button{display:inline-block;margin-top:28px;padding:13px 22px;border:1px solid var(--gold);color:var(--text);text-decoration:none;letter-spacing:.08em;font-size:.8rem;text-transform:uppercase;transition:.2s}
-    .button:hover{background:var(--gold);color:#101a17}
-    section{padding:88px 0;border-top:1px solid var(--line)}h2{font-size:clamp(2.2rem,5vw,3.8rem);max-width:760px;margin:14px 0 24px}
-    .copy{max-width:760px;color:var(--muted);font-size:1.04rem}.question{padding:75px 0;text-align:center;background:var(--panel);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-    .question blockquote{font-family:"Playfair Display",serif;font-size:clamp(2rem,5vw,4.2rem);line-height:1.2;margin:20px auto;max-width:900px;color:var(--text)}
-    .topics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);margin-top:38px}
-    .topic{background:var(--bg);padding:26px}.topic h3{font-size:1.45rem;margin:0 0 8px}.topic p{margin:0;color:var(--muted);font-size:.94rem}
-    .invite{background:var(--panel)}.invite-inner{max-width:760px}.tagline{color:var(--gold);letter-spacing:.15em;text-transform:uppercase;font-size:.76rem}
-    footer{padding:34px 0;color:var(--muted);font-size:.82rem}.footer-row{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer-row a{color:var(--gold);text-decoration:none}
-    @media(max-width:650px){.wrap{width:min(100% - 32px,1080px)}.hero{min-height:70vh;padding:78px 0}.topics{grid-template-columns:1fr}section{padding:65px 0}.hero:after{right:-340px}}
-  </style>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#101a17">
+<meta name="description" content="Decoding Hukum — Question. Explore. Understand. Explore the Creator, consciousness, spirituality, Sikh history and the mystery of existence through thoughtful conversation.">
+<title>Decoding Hukum | Question. Explore. Understand.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#101a17;--panel:#17231f;--panel2:#1d2b25;--text:#f2eee5;--muted:#b8b9ac;--gold:#c6a66b;--line:rgba(220,205,170,.19);--max:1120px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--bg);color:var(--text);font-family:"DM Sans",sans-serif;font-weight:300;line-height:1.75}a{color:inherit}.wrap{width:min(var(--max),calc(100% - 48px));margin:auto}
+header{position:sticky;top:0;z-index:20;background:rgba(16,26,23,.94);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{font-size:.82rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);text-decoration:none;white-space:nowrap}
+nav{display:flex;gap:26px;align-items:center}nav a{font-size:.78rem;letter-spacing:.07em;text-decoration:none;color:var(--muted);transition:.2s}nav a:hover,nav a.active{color:var(--gold)}.nav-cta{border:1px solid var(--gold);padding:9px 14px;color:var(--text)}
+.menu{display:none;background:none;border:1px solid var(--line);color:var(--text);padding:8px 11px;font:inherit}
+.eyebrow{text-transform:uppercase;letter-spacing:.23em;font-size:.7rem;color:var(--gold)}h1,h2,h3{font-family:"Playfair Display",serif;font-weight:400;line-height:1.16}h1{font-size:clamp(3.2rem,8vw,6.8rem);max-width:900px;margin:24px 0}h1 em{color:var(--gold);font-style:normal}h2{font-size:clamp(2.25rem,5vw,4rem);max-width:800px;margin:14px 0 24px}h3{font-size:1.55rem;margin:0 0 10px}.lead{font-size:clamp(1rem,2vw,1.2rem);color:var(--muted);max-width:700px}.copy{max-width:780px;color:var(--muted);font-size:1.02rem}.copy p{margin:0 0 18px}
+.button{display:inline-block;margin-top:25px;padding:13px 22px;border:1px solid var(--gold);color:var(--text);text-decoration:none;letter-spacing:.09em;font-size:.76rem;text-transform:uppercase;transition:.2s}.button:hover{background:var(--gold);color:#101a17}.button.filled{background:var(--gold);color:#101a17}
+.hero{min-height:76vh;display:flex;align-items:center;padding:100px 0 110px;position:relative;overflow:hidden}.hero:after{content:"";position:absolute;width:550px;height:550px;border:1px solid rgba(198,166,107,.13);border-radius:50%;right:-180px;top:8%;box-shadow:0 0 0 55px rgba(198,166,107,.025),0 0 0 110px rgba(198,166,107,.02);pointer-events:none}
+section{padding:92px 0;border-top:1px solid var(--line)}.two-col{display:grid;grid-template-columns:1fr 1.05fr;gap:70px;align-items:start}.side-note{border-left:1px solid var(--gold);padding:8px 0 8px 26px;color:var(--muted);font-family:"Playfair Display",serif;font-size:1.45rem;line-height:1.5}
+.question{padding:82px 0;text-align:center;background:var(--panel);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.question blockquote{font-family:"Playfair Display",serif;font-size:clamp(2rem,5vw,4.2rem);line-height:1.2;margin:22px auto;max-width:940px}
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);margin-top:42px}.card{background:var(--bg);padding:32px;min-height:190px}.card .num{color:var(--gold);font-size:.72rem;letter-spacing:.2em}.card p{color:var(--muted);margin:0;font-size:.94rem}
+.author{background:var(--panel)}.author-mark{width:100%;min-height:300px;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;text-align:center;padding:30px;background:radial-gradient(ellipse at center,rgba(198,166,107,.1),transparent 68%)}.author-mark span{font-family:"Playfair Display",serif;font-size:clamp(2.5rem,6vw,4.5rem);color:var(--gold);line-height:1.1}.author-mark small{display:block;font-family:"DM Sans",sans-serif;font-size:.68rem;letter-spacing:.25em;text-transform:uppercase;color:var(--muted);margin-top:15px}
+.explore-intro{max-width:780px}.session{background:var(--panel)}.session-panel{max-width:800px;border:1px solid var(--line);padding:clamp(26px,5vw,48px);margin-top:34px}.session-points{display:grid;grid-template-columns:repeat(2,1fr);gap:18px 30px;margin:28px 0}.session-point{color:var(--muted);font-size:.94rem}.session-point b{display:block;color:var(--text);font-weight:400;margin-bottom:4px}
+.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:70px}.contact-details{color:var(--muted)}.contact-details strong{display:block;color:var(--gold);font-weight:400;letter-spacing:.1em;text-transform:uppercase;font-size:.72rem;margin:25px 0 6px}
+form{display:grid;gap:16px}.field{display:grid;gap:7px}label{font-size:.8rem;color:var(--muted)}input,textarea,select{width:100%;background:#0c1411;border:1px solid var(--line);padding:13px 14px;color:var(--text);font:inherit;border-radius:0}input:focus,textarea:focus,select:focus{outline:1px solid var(--gold);border-color:var(--gold)}textarea{min-height:125px;resize:vertical}.form-note{font-size:.78rem;color:var(--muted);margin:0}
+footer{padding:32px 0;color:var(--muted);font-size:.8rem}.footer-row{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.tagline{color:var(--gold);letter-spacing:.14em;text-transform:uppercase;font-size:.72rem}
+@media(max-width:800px){nav{gap:14px}nav a{font-size:.7rem}.two-col,.contact-grid{grid-template-columns:1fr;gap:32px}.hero{min-height:70vh}}
+@media(max-width:640px){.wrap{width:calc(100% - 32px)}.nav{min-height:68px}.menu{display:block}nav{display:none;position:absolute;top:68px;left:0;right:0;background:var(--bg);padding:18px 24px 24px;border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch}nav.open{display:flex}nav a{font-size:.82rem;padding:7px 0}.hero{padding:78px 0;min-height:68vh}.hero:after{right:-360px}.cards,.session-points{grid-template-columns:1fr}section{padding:68px 0}.card{min-height:unset;padding:25px}.question{padding:65px 0}}
+</style>
 </head>
 <body>
-  <header><div class="wrap"><div class="brand">Decoding Hukum</div></div></header>
-  <main>
-    <section class="hero" style="border:0">
-      <div class="wrap">
-        <div class="eyebrow">A space for curiosity and contemplation</div>
-        <h1>The conversation<br>continues <em>beyond the pages.</em></h1>
-        <p class="lead">A book may open a door. The questions that follow can take us much further. Join a thoughtful exploration of the Creator, consciousness, spirituality and the mystery of existence.</p>
-        <a class="button" href="#conversation">Begin the conversation</a>
-      </div>
-    </section>
-    <section>
-      <div class="wrap">
-        <div class="eyebrow">Beyond the pages, beyond the questions</div>
-        <h2>Curiosity is where understanding begins.</h2>
-        <div class="copy">
-          <p>Have you ever paused to ask: Who is the Creator? What is the nature of the force that gives rise to existence? Are we simply living through events, or is there a deeper order connecting everything?</p>
-          <p>These are not questions that need to belong to one tradition, one belief or one point of view. They invite us to look closer, listen carefully and explore with an open mind.</p>
-          <p>Decoding Hukum is an invitation to continue that exploration through sincere conversation, reflection and inquiry.</p>
-        </div>
-      </div>
-    </section>
-    <div class="question">
-      <div class="wrap">
-        <div class="eyebrow">One question. Many paths of inquiry.</div>
-        <blockquote>“Who is the Creator — and what does it mean to understand the One behind all existence?”</blockquote>
-      </div>
-    </div>
-    <section>
-      <div class="wrap">
-        <div class="eyebrow">Explore the unexplored</div>
-        <h2>Bring your questions. Leave room for discovery.</h2>
-        <p class="copy">Our conversations can draw upon philosophical ideas, spiritual traditions, ancient scriptures, historical events and the questions that shape our everyday lives.</p>
-        <div class="topics">
-          <article class="topic"><h3>The Creator</h3><p>Explore ideas about the origin, nature and presence of the Creator.</p></article>
-          <article class="topic"><h3>Consciousness</h3><p>Reflect on awareness, the self and our experience of being alive.</p></article>
-          <article class="topic"><h3>Wisdom &amp; history</h3><p>Revisit insights from spiritual texts, traditions and historical events.</p></article>
-          <article class="topic"><h3>Existence &amp; purpose</h3><p>Ask what gives life meaning and how we understand our place in the whole.</p></article>
-        </div>
-      </div>
-    </section>
-    <section class="invite" id="conversation">
-      <div class="wrap invite-inner">
-        <div class="eyebrow">The next step is a conversation</div>
-        <h2>Some questions deserve more than a quick answer.</h2>
-        <p class="copy">Book a personal session to discuss your questions, explore ideas and have a thoughtful, respectful dialogue about the Creator and the deeper dimensions of existence.</p>
-        <a class="button" href="https://www.decodinghukum.com" target="_blank" rel="noopener noreferrer">Book a session</a>
-        <p class="copy" style="font-size:.88rem;margin-top:18px">The booking link currently points to the main website address. Replace it with your dedicated booking page when that page is available.</p>
-      </div>
-    </section>
-  </main>
-  <footer><div class="wrap footer-row"><span>© <span id="year"></span> Decoding Hukum</span><span class="tagline">Question. Explore. Understand.</span><a href="https://www.decodinghukum.com">decodinghukum.com</a></div></footer>
-  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
-</body>
-</html>
+<header><div class="wrap nav"><a class="brand" href="#home">Decoding Hukum</a><button class="menu" id="menu" aria-label="Open navigation" aria-expanded="false">Menu</button><nav id="nav"><a href="#home">Home</a><a href="#about">About the Author</a><a href="#explore">Explore</a><a href="#sessions">Book a Session</a><a href="#contact" class="nav-cta">Contact</a></nav></div></header>
+<main>
+<section class="hero" id="home" style="border-top:0"><div class="wrap">
+<div class="eyebrow">A space for curiosity and contemplation</div>
+<h1>The conversation<br>continues <em>beyond the pages.</em></h1>
+<p class="lead">A book may open a door. The questions that follow can take us much further. Explore the Creator, consciousness, spirituality and the mystery of existence through thoughtful inquiry and open conversation.</p>
+<a class="button filled" href="#explore">Begin exploring</a>
+</div></section>
+<section id="about" class="author"><div class="wrap two-col">
+<div><div class="eyebrow">About the author</div><h2>A journey shaped by questions.</h2><div class="author-mark"><div><span>Decoding<br>Hukum</span><small>Question · Explore · Understand</small></div></div></div>
+<div class="copy">
+<p>Decoding Hukum is the work of <strong style="color:var(--text);font-weight:400">Dilpreet Singh Brar</strong>, a writer whose curiosity has led him from formal education and civil-service studies towards deeper questions about spirituality, existence and the nature of the Creator.</p>
+<p>A graduate of Chandigarh Group of Colleges (CGC), Mohali, Dilpreet brings together reflection, storytelling and an interest in the wisdom preserved across spiritual traditions and history.</p>
+<p>His book explores ideas about the Creator through short stories, philosophical questions and true events from Sikh history. It is an invitation to think beyond familiar assumptions, examine different perspectives and approach profound questions with humility and an open mind.</p>
+<p>Decoding Hukum extends that invitation beyond the book — creating room for readers to ask, discuss and explore without fear of judgement.</p>
+<div class="eyebrow" style="margin-top:28px">The intention</div><p class="side-note">Not to impose conclusions, but to encourage sincere questions and a deeper search for understanding.</p>
+</div></div></section>
+<div class="question"><div class="wrap"><div class="eyebrow">One question. Many paths of inquiry.</div><blockquote>“Who is the Creator — and what does it mean to understand the One behind all existence?”</blockquote></div></div>
+<section id="explore"><div class="wrap">
+<div class="eyebrow">Explore</div><h2>Bring your questions. Leave room for discovery.</h2>
+<p class="copy explore-intro">Explore ideas across philosophy, spirituality, ancient scriptures and history. These themes are starting points for reflection, not fixed answers or boundaries around what can be discussed.</p>
+<div class="cards">
+<article class="card"><div class="num">01 / THE CREATOR</div><h3>The nature of the One</h3><p>Explore questions about the origin, presence and nature of the Creator, and the relationship between the source and existence.</p></article>
+<article class="card"><div class="num">02 / CONSCIOUSNESS</div><h3>Awareness and the self</h3><p>Reflect on consciousness, identity, perception and the mystery of being aware.</p></article>
+<article class="card"><div class="num">03 / WISDOM &amp; SCRIPTURE</div><h3>Ideas across traditions</h3><p>Consider philosophical and spiritual insights found in ancient texts and diverse traditions.</p></article>
+<article class="card"><div class="num">04 / SIKH HISTORY</div><h3>Lessons through history</h3><p>Look at true events and personalities from Sikh history, and the questions their lives and choices invite us to consider.</p></article>
+<article class="card"><div class="num">05 / KARMA &amp; DESTINY</div><h3>Choice and consequence</h3><p>Examine the relationship between action, consequence, destiny and free will.</p></article>
+<article class="card"><div class="num">06 / EXISTENCE &amp; PURPOSE</div><h3>Our place in the whole</h3><p>Ask what gives life meaning and how we understand our place in the wider universe.</p></article>
+</div></div></section>
+<section id="sessions" class="session"><div class="wrap"><div class="eyebrow">Book a session</div><h2>Some questions deserve more than a quick answer.</h2><p class="copy">If a question from the book stayed with you — or if you have a question of your own about the Creator, spirituality, consciousness or existence — a personal conversation can give it the time and attention it deserves.</p>
+<div class="session-panel"><div class="eyebrow">A thoughtful, open conversation</div><h3>Bring the question you have been carrying.</h3><p class="copy">Sessions are intended as respectful, exploratory discussions. You can share what you are curious about, discuss ideas from the book or explore a subject that matters to you. The aim is dialogue and reflection, not judgement.</p>
+<div class="session-points"><div class="session-point"><b>Open inquiry</b>Ask questions freely and explore different perspectives.</div><div class="session-point"><b>Personal focus</b>Bring the subject you would most like to discuss.</div><div class="session-point"><b>Respectful dialogue</b>Different beliefs and viewpoints are welcomed.</div><div class="session-point"><b>Thoughtful exploration</b>Take time to reflect beyond a quick online answer.</div></div>
+<a class="button filled" href="#contact" data-subject="Personal session request">Request a session</a>
+<p class="form-note" style="margin-top:16px">Use the contact form below to enquire about a session. Scheduling and payment details can be added once your booking process is chosen.</p></div></div></section>
+<section id="contact"><div class="wrap contact-grid"><div><div class="eyebrow">Contact</div><h2>Let the conversation begin.</h2><p class="copy">Have a question, a thought to share or an enquiry about a personal session? Send a message using the form. We welcome sincere questions and thoughtful dialogue.</p><div class="contact-details"><strong>Website</strong><a href="https://www.decodinghukum.com">www.decodinghukum.com</a><strong>For</strong>General enquiries · Session requests · Questions about the book</div></div>
+<div><form id="contactForm">
+<div class="field"><label for="name">Your name</label><input id="name" name="name" autocomplete="name" required placeholder="Enter your name"></div>
+<div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="Where can we reply?"></div>
+<div class="field"><label for="subject">What is your message about?</label><select id="subject" name="subject"><option>General enquiry</option><option>Personal session request</option><option>Question about the book</option><option>Spirituality and the Creator</option><option>Other</option></select></div>
+<div class="field"><label for="message">Your message</label><textarea id="message" name="message" required placeholder="Write your question or message here..."></textarea></div>
+<button class="button filled" type="submit" style="cursor:pointer;background:var(--gold);color:var(--bg)">Prepare message</button>
+<p class="form-note" id="formNote">The form will prepare an email in your mail app. The site owner’s contact email needs to be configured before messages can be sent directly from the website.</p>
+</form></div></div></section>
+</main>
+<footer><div class="wrap footer-row"><span>© <span id="year"></span> Decoding Hukum</span><span class="tagline">Question. Explore. Understand.</span><a href="#home" style="color:var(--gold);text-decoration:none">Back to top ↑</a></div></footer>
+<script>
+document.getElementById("year").textContent=new Date().getFullYear();
+const menu=document.getElementById("menu"),nav=document.getElementById("nav");
+menu.addEventListener("click",()=>{const open=nav.classList.toggle("open");menu.setAttribute("aria-expanded",String(open));});
+nav.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>{nav.classList.remove("open");menu.setAttribute("aria-expanded","false");}));
+document.querySelectorAll('[data-subject]').forEach(a=>a.addEventListener("click",()=>{document.getElementById("subject").value=a.dataset.subject;}));
+document.getElementById("contactForm").addEventListener("submit",e=>{e.preventDefault();const note=document.getElementById("formNote");note.textContent="The form layout is ready. To activate message delivery, the site owner’s email address must be added to the website configuration.";});
+</script>
+</body></html>
